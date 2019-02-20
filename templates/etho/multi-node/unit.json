@@ -1,0 +1,25 @@
+{
+    "logLevel": 0,
+    "nodes": [
+    {
+        "id": "etho1",
+        "type": "ETHO_MN",
+        "path": "/mns/ETHO_MN_1",
+        "parameters": [ ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "etho",
+        "binds": [ "10.0.2.15:30305:30305" ]
+    },
+    {
+        "id": "etho2",
+        "type": "ETHO_MN",
+        "path": "/mns/ETHO_MN_2",
+        "parameters": [ ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "etho",
+        "binds": [ "192.168.56.104:30305:30305" ]
+    }
+    ]
+}
