@@ -19,6 +19,13 @@ Multi crypto node setup, management and monitoring.
 
 For examples of unit.json check out templates in this repository.
 
+### Updates
+
+- `./unit update`                               # updates binary to latest 
+- `./unit auto-update [enable|status|disable]`  # enables/shows status/disables auto update of unit 
+
+You can specify `"auto_update":true` in unit.json to enable auto updates on setup
+
 ### Global options (util.json)
 
 These options are all passed to all nodes, but do not override node specific options. 
