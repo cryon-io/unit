@@ -13,8 +13,8 @@ Multi crypto node setup, management and monitoring.
 
 0. download and unzip unit binary:
 ```
-    wget https://github.com/cryon-io/unit/releases/download/0.3/unit-linux-x64.zip && \
-    unzip -o unit-linux-x64.zip && \
+    wget https://github.com/cryon-io/unit/releases/download/0.3/unit-linux-x64.zip -O unit.zip && \
+    unzip -o unit.zip && \
     mv unit-linux-x64 unit && \
     chmod +x unit
 ```

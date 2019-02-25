@@ -1,0 +1,62 @@
+{
+    "logLevel": 2,
+    "nodes": [
+    {
+        "id": "wire1",
+        "type": "WIRE_MN",
+        "path": "/mns/WIRE_MN_1",
+        "parameters": [
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "wire"
+    },
+    {
+        "id": "etho1",
+        "type": "ETHO_MN",
+        "path": "/mns/ETHO_MN_1",
+        "parameters": [ ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "etho"
+    },
+    {
+        "id": "ulead1",
+        "type": "ULEAD_MN",
+        "path": "/mns/ULEAD_MN_1",
+        "parameters": [
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "ulead"
+    },
+        {
+        "id": "crown1",
+        "type": "CROWN_SN",
+        "path": "/mns/CROWN_SN_1",
+        "parameters": [
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "crown"
+    },
+    {
+        "id": "gin1",
+        "type": "GINCOIN_MN",
+        "path": "/mns/GINCOIN_MN_1",
+        "parameters": [
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "gin"
+    }
+    ]
+}
