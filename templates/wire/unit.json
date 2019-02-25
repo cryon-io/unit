@@ -1,0 +1,17 @@
+{
+    "logLevel": 0,
+    "nodes": [
+    {
+        "id": "wire1",
+        "type": "WIRE_MN",
+        "path": "/mns/WIRE_MN_1",
+        "parameters": [ 
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXX"
+        ],
+        "environment": [ ],
+        "auto_updates": "all",
+        "user": "wire"
+    }
+    ]
+}

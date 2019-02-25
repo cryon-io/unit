@@ -11,7 +11,14 @@ Multi crypto node setup, management and monitoring.
 
 ## Setup nodes with unit 
 
-0. `./unit help`        # check help 
+0. download and unzip unit binary:
+```
+    wget https://github.com/cryon-io/unit/releases/download/0.3/unit-linux-x64.zip && \
+    unzip -o unit-linux-x64.zip && \
+    mv unit-linux-x64 unit && \
+    chmod +x unit
+```
+    - (optional) `./unit help`        # check help 
 1. create unit.json file
 2. `sudo ./unit setup`  # setups all nodes defined in unit.json
 3. `./unit start`       # starts all nodes defined in unit.json
