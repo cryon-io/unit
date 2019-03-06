@@ -20,11 +20,28 @@ Multi crypto node setup, management and monitoring.
     chmod +x unit
 ```
     - (optional) `./unit help`        # check help 
-1. Prepare **unit.json** configuration file (has to be in same directory as `unit` binary)
+1. Prepare **unit.json** configuration file
     - for examples check out [templates](https://github.com/cryon-io/unit/tree/master/templates) in this repository.
 2. `sudo ./unit setup`  # setups all nodes defined in unit.json
 3. `./unit start`       # starts all nodes defined in unit.json
 4. `./unit info`        # prints details about nodes
+
+### unit.json
+
+It is *unit* configuration file. Unit looks up for unit.json in following paths and in order:
+1. directory the *unit* is located in
+2. current working directory
+3. `/etc/unit/unit.json` 
+
+### Swap
+
+You can specify swap space size in GB required for template, e.g. configuration for 2GB swap space:
+```json
+    ...
+    "swap" : 2  
+    ...
+```
+Defaults to 0.
 
 ### Updates
 
@@ -39,13 +56,12 @@ These options are all passed to all nodes, but do not override node specific opt
 
 #### unit.json options
 
-- `"logLevel" : [number from below]`    # level of unit log output
-  - 0 # trace
-  - 1 # debug
-  - 2 # info
-  - 3 # warn
-  - 4 # error
-  - 5 # fatal
+- `"logLevel" : [string from below]`    # level of unit log output (default is info)
+  - `"trace"`
+  - `"debug"`
+  - `"info"`
+  - `"warn"`
+  - `"error"`
 - `"path": [fully qualified path]`      # path where are nodes saved unless overridden by node options
 - `"global": { [options from below] }`  # options available for all nodes
   - `"environment": [ "env1=val1" ]`    # array of environment variables passed to all nodes, separated by comma
