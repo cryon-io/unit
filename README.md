@@ -43,6 +43,8 @@ You can specify swap space size in GB required for template, e.g. configuration 
 ```
 Defaults to 0.
 
+*Swap is created/adjusted automatically when executed `setup` command or manually by `configure-swap` command.*
+
 ### Updates
 
 - `./unit update`                               # updates binary to latest 
