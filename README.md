@@ -52,7 +52,7 @@ Defaults to 0.
 
 You can specify `"auto_update":true` in unit.json to enable auto updates on setup
 
-### Global options (util.json)
+### Global options (unit.json)
 
 These options are all passed to all nodes, but do not override node specific options. 
 
@@ -78,7 +78,7 @@ These options are all passed to all nodes, but do not override node specific opt
 
 - `"nodes" : [ { ... }, {...} ]`        # array of nodes 
 
-#### unit.json node specific options
+### unit.json node specific options
 
 - `"id": "node1"`                           # **required** unique node id
 - `"type": "node_type"`                     # **required** Node type from list of [supported nodes](https://github.com/cryon-io/ans/wiki/Supported-Node-Types)
@@ -92,3 +92,11 @@ These options are all passed to all nodes, but do not override node specific opt
                                             # above example binds port 5000 of node to 192.168.52.28:5001
 - `"ans-branch": "master"`                  # uses specific branch of ans repository (*defaults master*)
 - `"node-branch": "master"`                 # uses specific branch of node repository (*defaults master*)
+
+### Pruning nodes
+
+If you want to rerun from clean setup you can run prune command:
+- `./unit prune`                # removes service definitions and data for all nodes from unit.json
+- `./unit prune [node id]`      # removes service definitions and data for selected node/s from unit.json
+- `./unit prune-data`           # removes data for all nodes rom unit.json
+- `./unit prune-data [node id]` # removes data for selected node/s from unit.json
