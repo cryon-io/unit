@@ -100,3 +100,9 @@ If you want to rerun from clean setup you can run prune command:
 - `./unit prune [node id]`      # removes service definitions and data for selected node/s from unit.json
 - `./unit prune-data`           # removes data for all nodes rom unit.json
 - `./unit prune-data [node id]` # removes data for selected node/s from unit.json
+
+### Reset node
+
+In case your node got into invalid state (e.g. blockchain corruption caused by power loss), you can reset it with:
+- `./unit reset-node`                       # resets all nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
+- `./unit reset-node [nodeId], [nodeId]`    # resets selected nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
