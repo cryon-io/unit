@@ -7,7 +7,7 @@
         "path": "/mns/ETHO_MN_1",
         "parameters": [ ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "etho",
         "binds": [ "10.0.2.15:30305:30305" ]
     },
@@ -17,7 +17,7 @@
         "path": "/mns/ETHO_MN_2",
         "parameters": [ ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "etho",
         "binds": [ "192.168.56.104:30305:30305" ]
     }

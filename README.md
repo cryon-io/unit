@@ -16,11 +16,12 @@ Multi crypto node setup, management and monitoring.
     LATEST=$(curl -sL https://api.github.com/repos/cryon-io/unit/releases/latest | grep tag_name | sed 's/  "tag_name": "//g' | sed 's/",//g')
     wget https://github.com/cryon-io/unit/releases/download/$LATEST/unit-linux-x64.zip -O unit.zip && \
     unzip -o unit.zip && \
-    mv unit-linux-x64 unit && \
-    chmod +x unit
+    mv unit-linux-x64 /usr/sbin/unit && \
+    chmod +x /usr/sbin/unit
 ```
     - (optional) `./unit help`        # check help 
-1. Prepare **unit.json** configuration file
+1. Prepare **/etc/unit/unit.json** configuration file
+    - `mkdir -p /etc/unit/ && nano /etc/unit/unit.json`
     - for examples check out [templates](https://github.com/cryon-io/unit/tree/master/templates) in this repository.
 2. `sudo ./unit setup`  # setups all nodes defined in unit.json
 3. `./unit start`       # starts all nodes defined in unit.json

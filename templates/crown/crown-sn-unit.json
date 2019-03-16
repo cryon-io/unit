@@ -10,7 +10,7 @@
             "nodeprivkey=XXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "crown"
     }
     ]

@@ -3,8 +3,8 @@
     "nodes": [
     {
         "id": "etho1",
-        "type": "ETHO_MN",
-        "path": "/mns/ETHO_MN",
+        "type": "ETHO_GN",
+        "path": "/mns/ETHO_GN",
         "parameters": [ ],
         "environment": [ ],
         "auto_updates": "node",

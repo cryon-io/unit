@@ -10,7 +10,7 @@
             "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "wire"
     },
     {
@@ -19,7 +19,7 @@
         "path": "/mns/ETHO_MN_1",
         "parameters": [ ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "etho"
     },
     {
@@ -31,7 +31,7 @@
             "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "ulead"
     },
         {
@@ -43,7 +43,7 @@
             "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "crown"
     },
     {
@@ -55,7 +55,7 @@
             "nodeprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "gin"
     }
     ]

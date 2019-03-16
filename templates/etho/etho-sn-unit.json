@@ -7,7 +7,7 @@
         "path": "/mns/ETHO_SN",
         "parameters": [ ],
         "environment": [ ],
-        "auto_updates": "all",
+        "auto_updates": "node",
         "user": "etho"
     }
     ]
