@@ -1,0 +1,18 @@
+{
+    "logLevel": 0,
+    "nodes": [
+    {
+        "id": "zest1",
+        "type": "ZEST_MN",
+        "path": "/mns/ZEST_MN_1",
+        "parameters": [ 
+            "ip=192.168.56.104",
+            "nodeprivkey=XXXXXXXXXXXXXXXX",
+            "port=8175"
+        ],
+        "environment": [ ],
+        "auto_updates": "node",
+        "user": "zest"
+    }
+    ]
+}
