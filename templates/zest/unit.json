@@ -8,7 +8,7 @@
         "parameters": [ 
             "ip=192.168.56.104",
             "nodeprivkey=XXXXXXXXXXXXXXXX",
-            "port=8175"
+            "port=22030"
         ],
         "environment": [ ],
         "auto_updates": "node",
