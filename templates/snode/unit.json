@@ -7,8 +7,7 @@
         "path": "/mns/SNODE_MN_1",
         "parameters": [ 
             "ip=192.168.56.104",
-            "nodeprivkey=XXXXXXXXXXXXXXXX",
-            "port=18988"
+            "nodeprivkey=XXXXXXXXXXXXXXXX"
         ],
         "environment": [ ],
         "auto_updates": "node",
