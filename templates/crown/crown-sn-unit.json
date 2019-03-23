@@ -1,5 +1,7 @@
 {
     "logLevel": 0,
+    "auto_update": true,
+    "auto_docker_prune": "all",
     "nodes": [
     {
         "id": "crown1",
