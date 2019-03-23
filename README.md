@@ -11,7 +11,9 @@ Multi crypto node setup, management and monitoring.
 
 ## Setup nodes with unit 
 
-0. download and unzip unit binary:
+1. install unzip
+    - Ubuntu: `apt install unzip -y`
+2. download and unzip unit binary:
 ```sh
     LATEST=$(curl -sL https://api.github.com/repos/cryon-io/unit/releases/latest | grep tag_name | sed 's/  "tag_name": "//g' | sed 's/",//g')
     wget https://github.com/cryon-io/unit/releases/download/$LATEST/unit-linux-x64.zip -O unit.zip && \
@@ -20,12 +22,12 @@ Multi crypto node setup, management and monitoring.
     chmod +x /usr/sbin/unit
 ```
     - (optional) `./unit help`        # check help 
-1. Prepare **/etc/unit/unit.json** configuration file
+3. Prepare **/etc/unit/unit.json** configuration file
     - `mkdir -p /etc/unit/ && nano /etc/unit/unit.json`
     - for examples check out [templates](https://github.com/cryon-io/unit/tree/master/templates) in this repository.
-2. `sudo ./unit setup`  # setups all nodes defined in unit.json
-3. `./unit start`       # starts all nodes defined in unit.json
-4. `./unit info`        # prints details about nodes
+4. `sudo ./unit setup`  # setups all nodes defined in unit.json
+5. `./unit start`       # starts all nodes defined in unit.json
+6. `./unit info`        # prints details about nodes and VPS
 
 ### unit.json
 
@@ -49,7 +51,7 @@ Defaults to 0.
 ### Updates
 
 - `./unit update`                               # updates binary to latest 
-- `./unit auto-update [enable|status|disable]`  # enables/shows status/disables auto update of unit 
+- `./unit auto-update [status|apply]`  # shows status/applies auto update based on unit.json 
 
 You can specify `"auto_update":true` in unit.json to enable auto updates on setup
 
