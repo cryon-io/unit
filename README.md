@@ -11,6 +11,8 @@ Multi crypto node setup, management and monitoring.
 
 ## Setup nodes with unit 
 
+**Run bellow commands as root.**
+
 1. install unzip
     - Ubuntu: `apt install unzip -y`
 2. download and unzip unit binary:
@@ -18,16 +20,16 @@ Multi crypto node setup, management and monitoring.
     LATEST=$(curl -sL https://api.github.com/repos/cryon-io/unit/releases/latest | grep tag_name | sed 's/  "tag_name": "//g' | sed 's/",//g')
     wget https://github.com/cryon-io/unit/releases/download/$LATEST/unit-linux-x64.zip -O unit.zip && \
     unzip -o unit.zip && \
-    mv unit-linux-x64 /usr/sbin/unit && \
-    chmod +x /usr/sbin/unit
+    mv unit-linux-x64 /usr/bin/unit && \
+    chmod +x /usr/bin/unit
 ```
-    - (optional) `./unit help`        # check help 
+    - (optional) `unit help`        # check help 
 3. Prepare **/etc/unit/unit.json** configuration file
     - `mkdir -p /etc/unit/ && nano /etc/unit/unit.json`
     - for examples check out [templates](https://github.com/cryon-io/unit/tree/master/templates) in this repository.
-4. `sudo ./unit setup`  # setups all nodes defined in unit.json
-5. `./unit start`       # starts all nodes defined in unit.json
-6. `./unit info`        # prints details about nodes and VPS
+4. `unit setup`  # setups all nodes defined in unit.json
+5. `unit start`       # starts all nodes defined in unit.json
+6. `unit info`        # prints details about nodes and VPS
 
 ### unit.json
 
@@ -50,8 +52,8 @@ Defaults to 0.
 
 ### Updates
 
-- `./unit update`                               # updates binary to latest 
-- `./unit auto-update [status|apply]`  # shows status/applies auto update based on unit.json 
+- `unit update`                               # updates binary to latest 
+- `unit auto-update [status|apply]`  # shows status/applies auto update based on unit.json 
 
 You can specify `"auto_update":true` in unit.json to enable auto updates on setup
 
@@ -99,13 +101,13 @@ These options are all passed to all nodes, but do not override node specific opt
 ### Pruning nodes
 
 If you want to rerun from clean setup you can run prune command:
-- `./unit prune`                # removes service definitions and data for all nodes from unit.json
-- `./unit prune [node id]`      # removes service definitions and data for selected node/s from unit.json
-- `./unit prune-data`           # removes data for all nodes rom unit.json
-- `./unit prune-data [node id]` # removes data for selected node/s from unit.json
+- `unit prune`                # removes service definitions and data for all nodes from unit.json
+- `unit prune [node id]`      # removes service definitions and data for selected node/s from unit.json
+- `unit prune-data`           # removes data for all nodes rom unit.json
+- `unit prune-data [node id]` # removes data for selected node/s from unit.json
 
 ### Reset node
 
 In case your node got into invalid state (e.g. blockchain corruption caused by power loss), you can reset it with:
-- `./unit reset-node`                       # resets all nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
-- `./unit reset-node [nodeId], [nodeId]`    # resets selected nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
+- `unit reset-node`                       # resets all nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
+- `unit reset-node [nodeId], [nodeId]`    # resets selected nodes from unit.json = 'stop' + 'prune-data' + 'setup' + 'start'
