@@ -1,7 +1,11 @@
 {
     "logLevel": 0,
-    "auto_update": true,
-    "auto_docker_prune": "all",
+    "auto_update": {
+        "wait_for_sync":true,
+        "sync_timeout": "20m",
+        "auto_docker_prune": "all",
+        "unit_auto_update": true
+    },
     "nodes": [
     {
         "id": "etho1",
