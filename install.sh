@@ -6,5 +6,7 @@ wget https://github.com/cryon-io/unit/releases/download/$LATEST/unit-linux-x64.z
     mv unit-linux-x64 /usr/bin/unit &&
     chmod +x /usr/bin/unit &&
     mkdir -p /etc/unit/ &&
-    [ ! -f "/etc/unit/unit.json" ] && touch "/etc/unit/unit.json" &&
+    [ ! -f "/etc/unit/unit.json" ] && printf "{
+        
+    }" >"/etc/unit/unit.json" &&
     echo "Unit successfuly installed."
