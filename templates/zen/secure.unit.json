@@ -1,0 +1,29 @@
+{
+    "logLevel": 0,
+    "auto_update": {
+        "wait_for_sync":true,
+        "sync_timeout": "20m",
+        "auto_docker_prune": "all",
+        "unit_auto_update": true
+    },
+    "nodes": [
+    {
+        "id": "zen1",
+        "type": "ZEN_SECURE",
+        "path": "/mns/ZEN_SECURE_1",
+        "parameters": [ 
+            "ip=192.168.56.104",
+            "fqdn=cool-node.com",
+            "stakeaddr=myaddr",
+            "email=best@ops.com",
+            "ipv=4",
+            "region=na",
+            "API_KEY=my_api_key",
+            "bootstrap=URL_TO_BOOTSTRAP"
+        ],
+        "environment": [ ],
+        "auto_updates": "node",
+        "user": "zen"
+    }
+    ]
+}
