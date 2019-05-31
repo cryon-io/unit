@@ -27,6 +27,12 @@ Multi crypto node setup, management and monitoring.
 5. `unit start`       # starts all nodes defined in unit.json
 6. `unit info`        # prints details about nodes and VPS
 
+### Prerelease
+    If you want to get latest unstable release you can use: 
+```sh
+    wget https://raw.githubusercontent.com/cryon-io/unit/master/install-prerelease.sh -O /tmp/install.sh && sh /tmp/install.sh
+```
+
 ### unit.json
 
 It is *unit* configuration file. Unit looks up for unit.json in following paths and in order:
