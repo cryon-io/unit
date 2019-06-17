@@ -1,0 +1,9 @@
+{
+    "id": "etho1",
+    "type": "ETHO_MN",
+    "path": "/mns/ETHO_MN",
+    "parameters": [ ],
+    "environment": [ ],
+    "auto_updates": "node",
+    "user": "etho"
+}
