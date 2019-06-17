@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ether-1 Systemnode",
+        "name": "Ether-1 SN",
         "type": "ETHO_SN",
         "repository": "https://github.com/cryon-io/docker-etho-sn.git",
         "tier": "silver",
@@ -9,7 +9,7 @@
         "keywords": "ETHO Ether-1 System Systemnode"
     },
     {
-        "name": "Ether-1 Masternode",
+        "name": "Ether-1 MN",
         "type": "ETHO_MN",
         "repository": "https://github.com/cryon-io/docker-etho-mn.git",
         "tier": "silver",
@@ -18,7 +18,7 @@
         "keywords": "ETHO Ether-1 Master Masternode"
     },
     {
-        "name": "Ether-1 Gateway Node",
+        "name": "Ether-1 GN",
         "type": "ETHO_GN",
         "repository": "https://github.com/cryon-io/docker-etho-gn.git",
         "tier": "silver",
@@ -27,7 +27,7 @@
         "keywords": "ETHO Ether-1 Gateway Gatewaynode"
     },
     {
-        "name": "Gincoin Masternode",
+        "name": "Gincoin",
         "type": "GINCOIN_MN",
         "repository": "https://github.com/cryon-io/docker-gincoin-mn.git",
         "tier": "bronze",
@@ -36,7 +36,7 @@
         "keywords": "Gin Gincoin Master Masternode"
     },
     {
-        "name": "Ulead Masternode",
+        "name": "Ulead",
         "type": "ULEAD_MN",
         "repository": "https://github.com/cryon-io/docker-ulead-mn.git",
         "tier": "bronze",
@@ -45,7 +45,7 @@
         "keywords": "Ulead Master Masternode"
     },
     {
-        "name": "Crown Systemnode",
+        "name": "Crown SN",
         "type": "CROWN_SN",
         "repository": "https://github.com/cryon-io/docker-crown-sn.git",
         "tier": "bronze",
@@ -54,7 +54,7 @@
         "keywords": "Crown System Systemnode"
     },
     {
-        "name": "Crown Masternode",
+        "name": "Crown MN",
         "type": "CROWN_MN",
         "repository": "https://github.com/cryon-io/docker-crown-mn.git",
         "tier": "basic",
@@ -63,7 +63,7 @@
         "keywords": "Crown Master Masternode"
     },
     {
-        "name": "Airwire Masternode",
+        "name": "Airwire",
         "type": "WIRE_MN",
         "repository": "https://github.com/cryon-io/docker-wire-mn.git",
         "tier": "silver",
@@ -72,7 +72,7 @@
         "keywords": "Airwire WIRE Master Masternode"
     },
     {
-        "name": "Snode Masternode",
+        "name": "Snode",
         "type": "SNODE_MN",
         "repository": "https://github.com/cryon-io/docker-snode-mn.git",
         "tier": "basic",
@@ -81,7 +81,7 @@
         "keywords": "SNODE Master Masternode"
     },
     {
-        "name": "Horizen Securenode",
+        "name": "Horizen Secure",
         "type": "ZEN_SECURE",
         "repository": "https://github.com/cryon-io/docker-zen-secure-node.git",
         "tier": "steel",
