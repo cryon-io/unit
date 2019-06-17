@@ -1,7 +1,6 @@
 {
     "id": "etho1",
     "type": "ETHO_GN",
-    "path": "/mns/ETHO_GN",
     "parameters": [],
     "environment": [],
     "auto_updates": "node",

@@ -1,7 +1,6 @@
 {
     "id": "zen1",
     "type": "ZEN_SECURE",
-    "path": "/mns/ZEN_SECURE_1",
     "parameters": [ 
         "ip=192.168.56.104",
         "fqdn=cool-node.com",

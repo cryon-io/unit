@@ -1,7 +1,6 @@
 {
     "id": "crown1",
     "type": "CROWN_SN",
-    "path": "/mns/CROWN_SN_1",
     "parameters": [ 
         "ip=192.168.56.104",
         "nodeprivkey=XXXXXXXXXXXXXXXX"

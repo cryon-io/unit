@@ -1,7 +1,6 @@
 {
     "id": "gin1",
     "type": "GINCOIN_MN",
-    "path": "/mns/GINCOIN_MN_1",
     "parameters": [ 
         "ip=192.168.56.104",
         "nodeprivkey=XXXXXXXXXXXXXXXX"

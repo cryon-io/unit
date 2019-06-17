@@ -1,7 +1,6 @@
 {
     "id": "ulead1",
     "type": "ULEAD_MN",
-    "path": "/mns/ULEAD_MN_1",
     "parameters": [ 
         "ip=192.168.56.104",
         "nodeprivkey=XXXXXXXXXXXXXXXX"

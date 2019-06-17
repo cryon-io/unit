@@ -1,7 +1,6 @@
 {
     "id": "snode1",
     "type": "SNODE_MN",
-    "path": "/mns/SNODE_MN_1",
     "parameters": [ 
         "ip=192.168.56.104",
         "nodeprivkey=XXXXXXXXXXXXXXXX"
