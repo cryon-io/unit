@@ -1,0 +1,72 @@
+{
+    "ETHO_SN" : {
+        "repository": "https://github.com/cryon-io/docker-etho-sn.git",
+        "tier": "silver",
+        "ehwp": true,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/etho/etho-sn.json",
+        "keywords": "ETHO Ether-1 System Systemnode"
+    },
+    "ETHO_MN" :{
+        "repository": "https://github.com/cryon-io/docker-etho-mn.git",
+        "tier": "silver",
+        "ehwp": true,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/etho/etho-mn.json",
+        "keywords": "ETHO Ether-1 Master Masternode"
+    },
+    "ETHO_GN" : {
+        "repository": "https://github.com/cryon-io/docker-etho-gn.git",
+        "tier": "silver",
+        "ehwp": true,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/etho/etho-gn.json",
+        "keywords": "ETHO Ether-1 Gateway Gatewaynode"
+    },
+    "GINCOIN_MN" : {
+        "repository": "https://github.com/cryon-io/docker-gincoin-mn.git",
+        "tier": "bronze",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/gin/gin-mn.json",
+        "keywords": "Gin Gincoin Master Masternode"
+    },
+    "ULEAD_MN" : {
+        "repository": "https://github.com/cryon-io/docker-ulead-mn.git",
+        "tier": "bronze",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/ulead/ulead-mn.json",
+        "keywords": "Ulead Master Masternode"
+    },
+    "CROWN_SN" : {
+        "repository": "https://github.com/cryon-io/docker-crown-sn.git",
+        "tier": "bronze",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/crown/crown-sn.json",
+        "keywords": "Crown System Systemnode"
+    },
+    "CROWN_MN" : {
+        "repository": "https://github.com/cryon-io/docker-crown-mn.git",
+        "tier": "basic",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/crown/crown-mn.json",
+        "keywords": "Crown Master Masternode"
+    },
+    "WIRE_MN" : {
+        "repository": "https://github.com/cryon-io/docker-wire-mn.git",
+        "tier": "silver",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/wire/wire-mn.json",
+        "keywords": "Airwire WIRE Master Masternode"
+    },
+    "SNODE_MN" : {
+        "repository": "https://github.com/cryon-io/docker-snode-mn.git",
+        "tier": "basic",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/snode/snode-mn.json",
+        "keywords": "SNODE Master Masternode"
+    },
+    "ZEN_SECURE": {
+        "repository": "https://github.com/cryon-io/docker-zen-secure-node.git",
+        "tier": "steel",
+        "ehwp": false,
+        "template": "https://github.com/cryon-io/unit/blob/master/templates/zen/zen-secure.json",
+        "keywords": "ZEN HORIZEN Secure Securenode"
+    }
+}
