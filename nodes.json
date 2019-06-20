@@ -66,7 +66,7 @@
         "name": "Airwire",
         "type": "WIRE_MN",
         "repository": "https://github.com/cryon-io/docker-wire-mn.git",
-        "tier": "silver",
+        "tier": "gold",
         "ehwp": false,
         "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/wire/wire-mn.json",
         "keywords": "Airwire WIRE Master Masternode"
