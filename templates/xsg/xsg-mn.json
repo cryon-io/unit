@@ -1,0 +1,14 @@
+{
+    "id": "xsg1",
+    "type": "XSG_MN",
+    "path": "/mns/XSG_MN_1",
+    "parameters": [
+        "ip=ip",
+        "nodeprivkey=privkey",
+        "txid=txid",
+        "txindex=index"
+    ],
+    "environment": [ ],
+    "auto_updates": "node",
+    "user": "snowgem"
+}

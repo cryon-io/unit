@@ -84,9 +84,18 @@
         "name": "Horizen Secure",
         "type": "ZEN_SECURE",
         "repository": "https://github.com/cryon-io/docker-zen-secure-node.git",
-        "tier": "steel",
+        "tier": "basic+",
         "ehwp": false,
         "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/zen/zen-secure.json",
         "keywords": "ZEN HORIZEN Secure Securenode"
+    },
+    {
+        "name": "Snowgem Masternode",
+        "type": "XSG_MN",
+        "repository": "https://github.com/cryon-io/docker-snowgem-mn.git",
+        "tier": "basic",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xsg/xsg-mn.json",
+        "keywords": "XSG Snowgem Masternode"
     }
 ]
