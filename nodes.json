@@ -48,7 +48,7 @@
         "name": "Crown SN",
         "type": "CROWN_SN",
         "repository": "https://github.com/cryon-io/docker-crown-sn.git",
-        "tier": "bronze",
+        "tier": "silver",
         "ehwp": false,
         "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/crown/crown-sn.json",
         "keywords": "Crown System Systemnode"
