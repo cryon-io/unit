@@ -1,0 +1,8 @@
+{
+    "id": "pirl1",
+    "type": "PIRL_CN",
+    "parameters": [ "ip=127.0.0.1" ],
+    "environment": [ "MASTERNODE=masternode", "TOKEN=token" ],
+    "auto_updates": "node",
+    "user": "pirl"
+}

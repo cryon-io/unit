@@ -97,5 +97,14 @@
         "ehwp": false,
         "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xsg/xsg-mn.json",
         "keywords": "XSG Snowgem Masternode"
-    }
+    },
+    {
+        "name": "Pirl Content Node",
+        "type": "PIRL_CN",
+        "repository": "https://github.com/cryon-io/docker-pirl-cn.git",
+        "tier": "basic",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/pirl/pirl-cn.json",
+        "keywords": "Pirl Content Node"
+    }    
 ]
