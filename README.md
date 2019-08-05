@@ -1,4 +1,4 @@
-## Unit - Entry point to your node world
+## Unit Core
 
 Multi crypto node setup, management and monitoring.
 
