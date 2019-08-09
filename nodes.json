@@ -106,5 +106,41 @@
         "ehwp": false,
         "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/pirl/pirl-cn.json",
         "keywords": "Pirl Content Node"
-    }    
+    },
+    {
+        "name": "XERO Chain Node",
+        "type": "XERO_CN",
+        "repository": "https://github.com/cryon-io/ans-xero-cn.git",
+        "tier": "silver",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xero/xero-cn.json",
+        "keywords": "XERO Chain Node"
+    },
+    {
+        "name": "XERO Xero Node",
+        "type": "XERO_XN",
+        "repository": "https://github.com/cryon-io/ans-xero-xn.git",
+        "tier": "silver",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xero/xero-xn.json",
+        "keywords": "XERO Xero Node"
+    },
+    {
+        "name": "XERO Link Node",
+        "type": "XERO_LN",
+        "repository": "https://github.com/cryon-io/ans-xero-ln.git",
+        "tier": "silver",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xero/xero-ln.json",
+        "keywords": "XERO Link Node"
+    },
+    {
+        "name": "XERO Super Node",
+        "type": "XERO_SN",
+        "repository": "https://github.com/cryon-io/ans-xero-sn.git",
+        "tier": "silver",
+        "ehwp": false,
+        "template": "https://raw.githubusercontent.com/cryon-io/unit/master/templates/xero/xero-sn.json",
+        "keywords": "XERO Super Node"
+    }
 ]
