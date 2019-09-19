@@ -1,5 +1,9 @@
 #!/bin/sh
 
+command -v apt-get && apt-get update && apt-get install -y -q curl
+command -v dnf && dnf -y install curl
+command -v yum && yum install -y curl
+
 LATEST=$(curl -sL https://api.github.com/repos/cryon-io/unit/releases/latest | grep tag_name | sed 's/  "tag_name": "//g' | sed 's/",//g')
 
 command -v apt-get && apt-get update && apt-get install -y -q unzip
